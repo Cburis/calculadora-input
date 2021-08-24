@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora dos manos</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Calculado da quebrada</h1>
+    </header>
+
+    <section class="calculadora">
+        <div class="corpo-calculadora">
+            <p>
+                Digite o primeiro numero:
+            </p>
+            <input type="number" name="primary-number" id="n1">
+
+            <p>
+                Digite o segundo numero:
+            </p>
+            <input type="number" name="primary-number" id="n2">
+
+            <p>
+                Digite por quanto o primeiro numero será elevado
+            </p>
+            <input type="number" name="primary-number" id="elevado">
+
+
+        </div>
+        <br>
+        <div>
+    
+                O resultado é: <span> </span>
+           
+        </div>
+        <br>
+        <div>
+            <button data-teste data-btnSoma class="bt-stl">Soma</button>
+            <button data-teste data-btnSub class="bt-stl">Subtração</button>
+            <button data-teste data-btnMult class="bt-stl">Multiplicação</button>
+            <button data-teste data-btnDiv class="bt-stl">Divisão</button>
+            <button data-teste data-btnPot class="bt-stl">Potencia</button>
+            <button data-teste data-btnRai class="bt-stl">Raiz Quadrada</button>
+        </div>
+    </section>
+
+    <script src="calculadora.js"></script>
+    <noscript>Ative pra ver oq aconte papai</noscript>
+</body>
+</html>
